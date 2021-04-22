@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.netology'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+compileJava {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+}
+compileTestJava {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+}
+
